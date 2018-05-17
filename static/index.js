@@ -1,4 +1,4 @@
-// Getting references
+// First is Getting all the references
 var selDataset = document.getElementById("selDataset");
 var PANEL = document.getElementById("sample-metadata");
 var PIE = document.getElementById("pie");
@@ -6,7 +6,7 @@ var BUBBLE = document.getElementById("bubble");
 var Gauge = document.getElementById("gauge");
 
 function updateMetaData(data) {
-    // Reference to Panel element for sample metadata
+    // Noe reference to Panel element for sample metadata
     var PANEL = document.getElementById("sample-metadata");
     // Clear any existing metadata
     PANEL.innerHTML = '';
